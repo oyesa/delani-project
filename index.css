@@ -12,6 +12,12 @@
   text-align: center;
 }
 
+.container-contact {
+  background-image: url(images/background/c_image.jpg);
+  text-align: center;
+
+}
+
 #design .title, #development .title, #product .title {
   font-size: 20px;
   font-weight: 500;
