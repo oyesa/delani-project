@@ -1,0 +1,17 @@
+
+
+
+#design .title, #development .title, #product .title {
+  font-size: 20px;
+  font-weight: 500;
+  font-weight: 600;
+}
+
+#overlay, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8 {
+  display: none;
+}
+
+button{
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
