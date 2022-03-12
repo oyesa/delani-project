@@ -43,6 +43,7 @@
 .portfolio {
   text-align: center;
   font-family: serif;
+  box-sizing: border-box;
 }
 
 .contact {
@@ -53,6 +54,17 @@
   background-repeat: no-repeat;
   color: white;
   font-family: serif;
+}
+
+#delani-form {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: cursive;
 }
 
 #design .title, #development .title, #product .title {
