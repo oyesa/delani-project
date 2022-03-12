@@ -1,5 +1,8 @@
 
-
+.intro {
+  background-image: url(images/background/h_img.jpg);
+  text-align: center;
+}
 
 #design .title, #development .title, #product .title {
   font-size: 20px;
