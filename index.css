@@ -54,6 +54,10 @@
   background-repeat: no-repeat;
   color: white;
   font-family: serif;
+  box-sizing: border-box;
+  padding: 12px 20px; */
+  border-radius: 4px;
+  font-size: 18px;
 }
 
 #delani-form {
