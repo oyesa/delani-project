@@ -23,6 +23,12 @@
 .services {
   background-image: url(images/background/s_image.jpg);
   text-align: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: serif;
+  font-size: 18px;
 }
 
 .container-contact {
