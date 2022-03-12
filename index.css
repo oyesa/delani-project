@@ -1,11 +1,24 @@
 
+.body {
+}
 .intro {
   background-image: url(images/background/h_img.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
+  color: white;
+  padding-top: 17%;
+  font-family: serif;
+  padding-bottom: 10%;
+  box-sizing: border-box;
 }
 
 .container-about-us {
   text-align: center;
+  padding-bottom: 30px;
+  padding-top: 40px;
+  font-family: serif;
 }
 .services {
   background-image: url(images/background/s_image.jpg);
@@ -15,7 +28,6 @@
 .container-contact {
   background-image: url(images/background/c_image.jpg);
   text-align: center;
-
 }
 
 #design .title, #development .title, #product .title {
