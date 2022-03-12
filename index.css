@@ -1,5 +1,6 @@
 
 .body {
+  display: block;
 }
 .intro {
   background-image: url(images/background/h_img.jpg);
@@ -29,6 +30,8 @@
   background-repeat: no-repeat;
   font-family: serif;
   font-size: 18px;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .what-we-do {
@@ -37,9 +40,19 @@
   padding-top: 40px;
 }
 
-.container-contact {
+.portfolio {
+  text-align: center;
+  font-family: serif;
+}
+
+.contact {
   background-image: url(images/background/c_image.jpg);
   text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: serif;
 }
 
 #design .title, #development .title, #product .title {
