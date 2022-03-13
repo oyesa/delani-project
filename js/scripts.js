@@ -8,7 +8,7 @@ $(document).ready(function(){
     var message = $("textarea#comment").val();
 
     if($("input#MERGE1").val() && $("input#MERGE0".val()){
-      alert (name + ${Your message has been recieved. Thank you for reaching out to us.});
+      alert (name + ", Your message has been recieved. Thank you for reaching out to us.");
     }
     else {
       alert("Please enter your name and email");
