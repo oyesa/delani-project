@@ -91,6 +91,7 @@ footer {
   color: black;
   font-size: 16px;
   padding: 16px 32px;
+  
 }
 
 .text {
@@ -103,12 +104,23 @@ footer {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-#work1:hover .image1 {
+#work1 .image1:hover, #work2 .image2:hover, #work3 .image3:hover, #work4 .image4:hover, #work5 .image5:hover, #work6 .image6:hover, #work7 .image7:hover, #work8 .image8:hover {
   opacity: 0.3;
 }
-#work1:hover #overlay {
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  
+}
+#work1:hover #overlay, #work2:hover #overlay2, #work3:hover #overlay3, #work4:hover #overlay4, #work5:hover #overlay5, #work6:hover #overlay6, #work7:hover #overlay7, #work8:hover #overlay8 {
   opacity: 1;
 }
+
+
 
 button{
   padding-bottom: 30px;
