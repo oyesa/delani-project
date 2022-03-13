@@ -7,18 +7,38 @@ $(document).ready(function(){
     var email = $("input#MERGE0").val();
     var message = $("textarea#comment").val();
 
-    if($("input#MERGE1").val() && $("input#MERGE0".val()) {
-      alert (name + ", Your message has been recieved. Thank you for reaching out to us.");
+    if($("input#MERGE1").val() && $("input#MERGE0").val()) {
+      alert(name + "Your message has been recieved. Thank you for reaching out to us.");
     }
     else {
       alert("Please enter your name and email");
     }
+
+//     if($("input#MERGE1").val() && $("input#MERGE0".val() {
+//       alert (name + ", Your message has been recieved. Thank you for reaching out to us.");
+//     }
+//     else {
+//       alert("Please enter your name and email");
+//     });
+//   });
+// });
+
+// add toggle effect on what-we-do section
+
+$(document).ready(function() {
+  $("#design").click(function() {
+    $("p").toggle();
   });
 });
 
-// add toggle effect on what-we-do section
 $(document).ready(function() {
-  $("#design").click(function() {
+  $("#development").click(function() {
+    $("p").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $("#product").click(function() {
     $("p").toggle();
   });
 });
