@@ -35,6 +35,9 @@ $(document).ready(function() {
   });
 });
 
+// Create hover effect in portfolio
+
+
 // $(document).ready(function(){
 //   $("form#delaniForm").submit(function(e){
 //   e.preventDefault();
