@@ -87,8 +87,13 @@ footer {
 }
 
 #overlay, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8 {
-  display: none;
-  color: white;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
