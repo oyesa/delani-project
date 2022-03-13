@@ -10,7 +10,7 @@
   text-align: center;
   color: white;
   padding-top: 17%;
-  font-family: serif;
+  font-family: 'Gabriela', serif;
   padding-bottom: 10%;
   box-sizing: border-box;
 }
@@ -19,7 +19,7 @@
   text-align: center;
   padding-bottom: 30px;
   padding-top: 40px;
-  font-family: serif;
+  font-family: 'Copse', serif;
 }
 .services {
   background-image: url(images/background/s_image.jpg);
@@ -28,14 +28,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: serif;
+  font-family: 'Copse', serif;
   font-size: 20px;
   padding-top: 8%;
   padding-bottom: 8%;
 }
 
 .what-we-do {
-  font-family: serif;
+  font-family: 'Copse', serif;
   text-align: center;
   padding-top: 40px;
 }
@@ -51,7 +51,7 @@
 }
 .portfolio {
   text-align: center;
-  font-family: serif;
+  font-family: 'Copse', serif;
   box-sizing: border-box;
 }
 
@@ -62,7 +62,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  font-family: serif;
+  font-family: 'Copse', serif;
   box-sizing: border-box;
   padding: 12px 20px; 
   border-radius: 4px;
