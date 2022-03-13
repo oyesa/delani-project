@@ -40,6 +40,15 @@
   padding-top: 40px;
 }
 
+#design {
+  display: none;
+}
+#development {
+  display: none;
+}
+#product {
+  display: none;
+}
 .portfolio {
   text-align: center;
   font-family: serif;
