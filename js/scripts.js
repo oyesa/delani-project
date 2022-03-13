@@ -1,41 +1,48 @@
 
 
-$(document).ready(function() {
-  $("#design").click(function() {
-    $("p").toggle();
-  });
-});
+function myFunction(){
+  var x = document.getElementById("design");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 
-$(document).ready(function() {
-  $("#development").click(function() {
-    $("p").toggle();
-  });
-});
+// $(document).ready(function() {
+//   $("div#design").click(function() {
+//     $("p").toggle();
+//   });
+// });
 
-$(document).ready(function() {
-  $("#product").click(function() {
-    $("p").toggle();
-  });
-});
+// $(document).ready(function() {
+//   $("div#development").click(function() {
+//     $("p").toggle();
+//   });
+// });
+
+// $(document).ready(function() {
+//   $("div#product").click(function() {
+//     $("p").toggle();
+//   });
+// });
 
 // Form function
 
-  var username = $("input#MERGE1").val();
-  var email = $("input#MERGE0").val();
-  var message = $("textarea#comment").val();
+  var input = document.getElementById("#MERGE1");
+  var input = document.getElementById("#MERGE0");
+  var textarea = $("#comment");
 
 $(document).ready(function() {
   $("button#submitBtn").click(function() {
     if($("input#MERGE1").val() && $("input#MERGE0").val()) {
-        alert(username + "Your message has been recieved. Thank you for reaching out to us.");
+        alert(MERGE1 + `Your message has been recieved. Thank you for reaching out to us.`);
         }
         else {
         alert("Please enter your name and email");
         }
   });
 });
-
-// Create hover effect in portfolio
 
 
 // $(document).ready(function(){
