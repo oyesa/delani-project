@@ -18,7 +18,7 @@ font-family: 'poppins', sans-serif;
   font-family: 'Gabriela', serif;
   padding-bottom: 10%;
   box-sizing: border-box;
-  font-size: larger;
+  font-size: large;
 }
 
 .container-about-us {
@@ -44,7 +44,7 @@ font-family: 'poppins', sans-serif;
 .what-we-do {
   font-family: 'Copse', serif;
   text-align: center;
-  padding-top: 40px;
+  width: auto;
 }
 
 #design {
