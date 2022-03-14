@@ -1,4 +1,4 @@
-
+// Toggle function in portfolio
 
 $(document).ready(function(){
   $('#design-btn').on('click', function(){
@@ -27,7 +27,7 @@ $(document).ready(function(){
 $(document).ready(function() {
   $("button#submitBtn").click(function() {
     if($("input#MERGE1").val() && $("input#MERGE0").val()) {
-        alert(MERGE1 + `Your message has been recieved. Thank you for reaching out to us.`);
+        alert(`Your message has been recieved. Thank you for reaching out to us.`);
         }
         else {
         alert("Please enter your name and email");
