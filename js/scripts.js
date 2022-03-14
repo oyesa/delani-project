@@ -27,7 +27,7 @@ $(document).ready(function(){
 $(document).ready(function() {
   $("button#submitBtn").click(function() {
     if($("input#MERGE1").val() && $("input#MERGE0").val()) {
-        alert(Input + `Your message has been recieved. Thank you for reaching out to us.`);
+        alert(MERGE1 + `Your message has been recieved. Thank you for reaching out to us.`);
         }
         else {
         alert("Please enter your name and email");

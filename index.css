@@ -1,4 +1,8 @@
-
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 .body {
   display: block;
 }
@@ -138,6 +142,7 @@ footer {
   margin-bottom: 20px;
   background: transparent;
   font-size: larger;
+  font: white;
 }
 
 #MERGE1{
@@ -147,6 +152,7 @@ footer {
   margin-left: 10%;
   background: transparent;
   font-size: larger;
+  font: white;
 }
 #comment{
   text-align: center;

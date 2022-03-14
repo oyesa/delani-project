@@ -9,24 +9,28 @@ This is a recreated website for Delani studio that shows a landing page with det
 <!-- <img src="" width="900px" height="440px"> -->
 
 
-### Behaviour D
-
+### Behaviour Driven Development (BDD)
+input: User inputs name, email address and comment
+output: Upon clicking the submit button, pop up "username + Your message has been recieved. Thank you for reaching out to us."
 
 ### Setup/installation Requirements
  * Access your Github account
+ * Fork the repo from https://github.com/oyesa/delani-project
+ * Clone the link
+ * Open the link 
 
  ### Technologies Used
  - HTML
  - CSS
  - Javascript - Used for document object manipulation
  - Bootstrap - Used for styling the interface
+ - jQuery
 
  ### Bugs
- Seen any bug? Contact me via mercy.oluchina@student.moringaschool.com. In case of any bug please alert me.
-
+Mailchimp API does not function properly
 ### Contact
 Oyesa Oluchina -mercy.oluchina@student.moringaschool.com
 
  ### Licence
  MIT Licence
- Copyright (c) 2022 Oyesa Oluchina
+ Copyright (c) 2022 Oyesa Mercy Oluchina
