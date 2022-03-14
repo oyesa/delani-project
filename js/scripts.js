@@ -1,8 +1,8 @@
 
 
-$(document).ready(function() {
-  $("div#design").click(function() {
-    $("p").toggle();
+$(document).ready(function(){
+  $('#design-btn').on('click', function(){
+    $('div#design').toggle();
   });
 });
 

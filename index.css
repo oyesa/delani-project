@@ -42,12 +42,15 @@
 
 #design {
   display: none;
+  text-align: center;
 }
 #development {
   display: none;
+  text-align: center;
 }
 #product {
   display: none;
+  text-align: center;
 }
 .portfolio {
   text-align: center;
