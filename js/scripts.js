@@ -2,19 +2,19 @@
 
 $(document).ready(function(){
   $('#design-btn').on('click', function(){
-    $('div#design').toggle();
+    $('div#design').toggle(2000);
   });
 });
 
-$(document).ready(function() {
-  $("div#development").click(function() {
-    $("p").toggle();
+$(document).ready(function(){
+  $('#development-btn').on('click', function(){
+    $('div#development').toggle(2000);
   });
 });
 
-$(document).ready(function() {
-  $("div#product").click(function() {
-    $("p").toggle();
+$(document).ready(function(){
+  $('#product-btn').on('click', function(){
+    $('div#product').toggle(2000);
   });
 });
 
