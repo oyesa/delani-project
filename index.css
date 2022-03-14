@@ -132,16 +132,23 @@ footer {
 }
 
 #MERGE0 {
-
+  text-align: center;
+  width: 40%;
+  margin-bottom: 20px;
 }
-#email{
 
-}
 #MERGE1{
-
+  text-align: center;
+  width: 40%;
+  margin-bottom: 20px;
+  margin-left: 10%;
 }
 #comment{
-
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
 }
 button{
   padding-bottom: 30px;
