@@ -20,6 +20,7 @@
   padding-bottom: 30px;
   padding-top: 40px;
   font-family: 'Copse', serif;
+  font-size: 18px;
 }
 .services {
   background-image: url(images/background/s_image.jpg);
@@ -135,6 +136,8 @@ footer {
   text-align: center;
   width: 40%;
   margin-bottom: 20px;
+  background: transparent;
+  font-size: larger;
 }
 
 #MERGE1{
@@ -142,6 +145,8 @@ footer {
   width: 40%;
   margin-bottom: 20px;
   margin-left: 10%;
+  background: transparent;
+  font-size: larger;
 }
 #comment{
   text-align: center;
@@ -149,6 +154,14 @@ footer {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 20px;
+  background: transparent;
+  font-size: larger;
+}
+
+input[type=text],input[type=email],#comment{
+  color: white;
+  font-size: 20px;
+  font-family: 'Copse', serif;
 }
 button{
   padding-bottom: 30px;
